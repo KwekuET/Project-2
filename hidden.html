@@ -6,7 +6,14 @@
   <style>
 
     .secret {
-      display: none;
+      color: transparent;
+      user-select: none;
+      outline: none;
+    }
+
+    .secret:focus {
+      color: darkred;
+      user-select: auto;
     }
     
     p::first-line {
