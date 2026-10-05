@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Hidden Text</title>
+  <link rel="stylesheet" href="all.css">
+  <style>
 
+    .secret {
+      display: none;
+    }
+    
+    p::first-line {
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="images.html">Image</a>
+    <a href="hidden.html">Hidden</a>
+  </nav>
+  </header>
+ 
+  <h1>Secret Text</h1>
+ 
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor <span class="secret">incididunt</span> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <span class="secret">occaecat</span> cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio praesent libero. Sed cursus ante dapibus diam, <span class="secret">vestibulum</span> sed nisi nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum praesent mauris.
+  Fusce nec tellus sed augue semper porta. Mauris massa vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos <span class="secret">himenaeos</span> curabitur sodales ligula in libero.
+  Sed dignissim lacinia nunc. Curabitur tortor pellentesque nibh. Aenean quam in scelerisque sem at dolor maecenas mattis. Sed convallis tristique sem proin ut ligula vel nunc egestas <span class="secret">porttitor</span> morbi lectus risus iaculis vel suscipit quis luctus non massa.</p>
+</body>
+</html>
