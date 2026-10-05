@@ -13,6 +13,10 @@ a:visited {
 }
 
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   border: groove;
   background-color: #d1aa8c;
   border-color: blue;
