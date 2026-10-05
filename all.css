@@ -2,7 +2,7 @@ body {
   font-size: 24px;
 }
 
-p {
+header {
   border: groove;
   background-color: red;
   border-color: blue;
